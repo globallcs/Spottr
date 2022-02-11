@@ -9,6 +9,12 @@ node -v
 npm -v
 ```
 
+After the software dependencies have been resolved, you can run the following command to download all of the required node modules:
+
+```bash
+npm install
+```
+
 <!-- Links -->
 [url-howtoopensource]: https://opensource.guide/how-to-contribute/
 [url-nodejs]: https://nodejs.org/en/download/
