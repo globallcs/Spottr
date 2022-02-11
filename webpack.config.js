@@ -12,8 +12,8 @@ module.exports = [
         }]
       },
       output: {
-        path: __dirname + '/src',
-        filename: 'electron.js'
+        path: __dirname + '/dist',
+        filename: 'main.js'
       }
     },
     {
