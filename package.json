@@ -5,6 +5,9 @@
   "main": "main.js",
   "author": "Global Logistics Consulting Services",
   "license": "",
+  "scripts": {
+    "start": "electron src/main.js"
+  },
   "devDependencies": {
     "electron": "^17.0.0"
   }
