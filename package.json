@@ -6,7 +6,7 @@
   "author": "Global Logistics Consulting Services",
   "license": "",
   "scripts": {
-    "start": "electron src/main.js"
+    "start": "tsc src/electron.ts"
   },
   "devDependencies": {
     "electron": "^17.0.0",
