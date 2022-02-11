@@ -7,7 +7,7 @@
   "license": "",
   "scripts": {
     "build": "webpack --config ./webpack.config.js",
-    "start": "npm run build && electron ./src/electron.js"
+    "start": "npm run build && electron ./dist/main.js"
   },
   "devDependencies": {
     "@types/react": "^17.0.39",
