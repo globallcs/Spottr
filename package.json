@@ -6,7 +6,8 @@
   "author": "Global Logistics Consulting Services",
   "license": "",
   "scripts": {
-    "start": "tsc src/electron.ts"
+    "build": "webpack --config ./webpack.config.js",
+    "start": "npm run build && electron ./src/electron.js"
   },
   "devDependencies": {
     "electron": "^17.0.0",
